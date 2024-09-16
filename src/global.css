@@ -1,0 +1,101 @@
+/* global.css */
+
+:root {
+    /* Dark theme colors */
+    --background-color-dark: #1a1a1a;
+    --card-background-color-dark: #2c2c2c;
+    --text-color-dark: #ffffff;
+    --text-color-secondary-dark: #b3b3b3;
+    --text-color-nav-dark: #333333;
+    --primary-color-dark: #9eff00;
+    --secondary-color-dark: #7bc700;
+    --hover-btn-color-dark: #1f1f1f;
+    --grey-10: #1a1a1a;
+    --grey-90: #e5e5e5;
+    --absolute-white: #ffffff;
+    --grey-60: #999999;
+    --grey-15: #262626;
+    --color-gray-100: rgba(255, 255, 255, 0.1);
+    /* Light theme colors */
+    --background-color-light: #ffffff;
+    --card-background-color-light: #f5f5f5;
+    --text-color-light: #333333;
+    --text-color-secondary-light: #777777;
+    --primary-color-light: #7bc700;
+    --secondary-color-light: #5a9e00;
+    /* Font variables */
+    --font-family-primary: 'Open Sans', sans-serif;
+    --font-family-secondary: 'Montserrat', sans-serif;
+    --font-size-base: 16px;
+    --font-size-small: 14px;
+    --font-size-large: 18px;
+    --font-size-xlarge: 24px;
+    --font-size-heading: 36px;
+    --font-size-19xl: 38px;
+    --font-size-xxlarge: 48px;
+    /* Padding variables */
+    --padding-3xs: 4px;
+    --padding-xs: 8px;
+    --padding-sm: 12px;
+    --padding-base: 16px;
+    --padding-lg: 20px;
+    --padding-xl: 24px;
+    --padding-11xl: 30px;
+    --padding-21xl: 40px;
+    --padding-31xl: 50px;
+    --padding-41xl: 60px;
+    --padding-61xl: 80px;
+    --padding-81xl: 100px;
+    --padding-231xl: 250px;
+    /* Gap variables */
+    --gap-2xs: 6px;
+    --gap-xs: 8px;
+    --gap-3xs: 10px;
+    --gap-sm: 12px;
+    --gap-md: 14px;
+    --gap-base: 16px;
+    --gap-xl: 20px;
+    --gap-xxl: 24px;
+    --gap-11xl: 30px;
+    --gap-14xl: 40px;
+    --gap-16xl: 50px;
+    --gap-21xl: 80px;
+    --gap-61xl: 100px;
+    /* Margin variables */
+    --padding-81xl: 100px;
+    --padding-231xl: 250px;
+    --padding-41xl: 60px;
+    --padding-3xs: 10px;
+    --padding-sm: 14px;
+    --padding-xl: 20px;
+    --padding-11xl: 30px;
+    /* Border Radii */
+    --br-sm: 14px;
+    --br-7xs: 6px;
+    --br-3xs: 10px;
+    /* Font Families */
+    --font-barlow: 'Barlow', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
+
+
+/* .dark-theme {
+    --background-color: var(--background-color-dark);
+    --card-background-color: var(--card-background-color-dark);
+    --text-color: var(--text-color-dark);
+    --text-color-secondary: var(--text-color-secondary-dark);
+    --primary-color: var(--primary-color-dark);
+    --secondary-color: var(--secondary-color-dark);
+} */
+
+
+/* Light theme 
+
+.light-theme {
+    --background-color: var(--background-color-light);
+    --card-background-color: var(--card-background-color-light);
+    --text-color: var(--text-color-light);
+    --text-color-secondary: var(--text-color-secondary-light);
+    --primary-color: var(--primary-color-light);
+    --secondary-color: var(--secondary-color-light);
+} */

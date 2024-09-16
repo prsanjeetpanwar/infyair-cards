@@ -1,0 +1,115 @@
+/* General Styles */
+.navbar {
+    background-color: var(--card-background-color-dark);
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar__logo img {
+    height: 60px;
+}
+
+.logo-title {
+    width: 100px;
+}
+
+.navbar__links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    color: var(--text-color-dark);
+    transition: color 0.3s ease;
+}
+
+.navbar__links a:hover {
+    color: var(--primary-color-dark);
+}
+
+.navbar__btn {
+    background-color: var(--primary-color-dark);
+    color: var(--background-color-dark);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar__btn:hover {
+    background-color: var(--secondary-color-dark);
+}
+
+/* Mobile Menu Styles */
+.navbar__toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar__toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-color-dark);
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: var(--card-background-color-dark);
+    padding: 10px 0;
+}
+
+.navbar__menu.active {
+    display: flex;
+}
+
+.navbar__menu a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar__links {
+        display: none;
+    }
+
+    .navbar__toggle {
+        display: flex;
+    }
+
+    .navbar__menu {
+        display: none;
+    }
+}
+
+/* Active Mobile Menu Toggle Animation */
+.navbar__toggle.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.navbar__toggle.change .bar2 {
+    opacity: 0;
+}
+
+.navbar__toggle.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
